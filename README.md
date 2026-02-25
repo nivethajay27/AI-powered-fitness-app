@@ -23,7 +23,7 @@ This project demonstrates **AI + Full Stack Development** using React, Node.js, 
 **Frontend**
 - React
 - Basic CSS
-- Fetch API (no Axios)
+- Fetch API 
 
 **Backend**
 - Node.js
@@ -40,7 +40,7 @@ This project demonstrates **AI + Full Stack Development** using React, Node.js, 
 ## Setup Instructions
 
 ### 1. Clone the repo
-git clone https://github.com/yourusername/ai-powered-fitness-app.git
+git clone https://github.com/nivethajay27/AI-powered-fitness-app.git
 cd ai-powered-fitness-app
 
 ---
