@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  font-family: system-ui;
+  color: white;
+}
+
+/* Layout */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.card {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Form */
+.form-card input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* AI Insights Panel */
+.ai-card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+}
+
+.ai-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ai-plan h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #38bdf8; /* blue accent */
+}
+
+.recovery-score {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #22c55e; /* green accent */
+}
+
+.plan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.day-card {
+  background: #1f2937;
+  border-radius: 10px;
+  padding: 12px;
+  transition: 0.2s;
+}
+
+.day-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #facc15; /* yellow accent for activity */
+}
+
+.day-card ul {
+  margin: 4px 0;
+  padding-left: 20px;
+}
+
+.day-card li {
+  line-height: 1.4;
+}
+
+/* Workout grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.workout-card {
+  transition: 0.2s;
+}
+
+.workout-card:hover {
+  transform: translateY(-5px);
+}
+
+.metrics {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.date {
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
