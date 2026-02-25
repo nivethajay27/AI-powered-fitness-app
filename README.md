@@ -2,7 +2,7 @@
 
 A full-stack fitness tracking and AI analytics web application that allows users to log workouts and generate adaptive training insights using AI.
 
-This project demonstrates **AI + Full Stack Development** using React, Node.js, PostgreSQL, and the API.
+This project demonstrates **AI + Full Stack Development** using React, Node.js, PostgreSQL, and the Grok API.
 
 ---
 
