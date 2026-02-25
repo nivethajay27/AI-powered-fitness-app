@@ -2,7 +2,7 @@
 
 A full-stack fitness tracking and AI analytics web application that allows users to log workouts and generate adaptive training insights using AI.
 
-This project demonstrates **AI + Full Stack Development** using React, Node.js, PostgreSQL, and the :contentReference[oaicite:0]{index=0} API.
+This project demonstrates **AI + Full Stack Development** using React, Node.js, PostgreSQL, and the API.
 
 ---
 
@@ -34,15 +34,6 @@ This project demonstrates **AI + Full Stack Development** using React, Node.js, 
 
 **AI**
 - Groq LLM API (OpenAI-compatible endpoint)
-
----
-
-## Project Structure
-ai-powered-fitness-app
-│
-├── client (React frontend)
-├── server (Node backend)
-└── README.md
 
 ---
 
